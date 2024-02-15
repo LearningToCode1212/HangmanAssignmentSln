@@ -8,12 +8,12 @@ namespace HangmanAssignment
         // List of words for the game
         List<string> words = new List<string>()
         {
-            "ok",
+            "ethan",
             "ok",
             "test",
-            "ok",
-            "ok",
-            "ok"
+            "coding",
+            "computer",
+            "testing"
         };
 
         string answer;
@@ -109,9 +109,6 @@ namespace HangmanAssignment
 
         private void UpdatingUI()
         {
-            // Display the guessed word with spaces between letters
-            //GuessWord = string.Join(" ", guessWord.ToCharArray());
-
             // Update hangman image
             HangmanImage = "hang" + currentImage + ".png";
 
